@@ -35,7 +35,7 @@ namespace GadgetsOnline.Controllers
         }
 
         [HttpPost]
-        public ActionResult SubmitForm(IFormCollection form)
+        public ActionResult AddressAndPayment(IFormCollection values)
 
         {
             var order = new Order();
